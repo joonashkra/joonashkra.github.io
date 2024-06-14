@@ -1,5 +1,4 @@
-import React from 'react'
-import ArrowDown from '../assets/ArrowDown'
+import { ArrowDown } from "../assets/ArrowDown"
 
 function WelcomePage() {
   return (
