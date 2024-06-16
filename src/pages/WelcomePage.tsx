@@ -2,7 +2,7 @@ import { ArrowDown } from "../assets/ArrowDown"
 
 function WelcomePage() {
   return (
-    <div className='snap-start h-full flex flex-col m-8 sm:m-32 justify-around'>
+    <div className='snap-start h-full flex flex-col m-8 sm:m-32 justify-around' id="home">
         <h1 className='text-2xl sm:text-3xl'>Welcome!</h1>
         <div className='flex flex-col text-lg sm:text-2xl gap-10'>
           <p>

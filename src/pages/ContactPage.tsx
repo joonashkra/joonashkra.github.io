@@ -2,7 +2,7 @@ import React from 'react'
 
 function ContactPage() {
   return (
-    <div className='snap-start h-full'>ContactPage</div>
+    <div className='snap-start h-full' id='contact'>ContactPage</div>
   )
 }
 
