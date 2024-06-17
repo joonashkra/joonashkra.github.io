@@ -1,15 +1,17 @@
 
 
 function AboutPage() {
+
   return (
-    <div className='snap-start h-full flex flex-col m-8 sm:m-32 justify-around' id="about">
+    <div className='snap-start h-full flex flex-col m-8 sm:m-32 justify-center gap-20' id="about">
       <h1 className='text-2xl sm:text-3xl'>About Me</h1>
       <div className='flex flex-col text-lg sm:text-2xl gap-10'>
         <p>
-          I am an Information Technology student at Vaasa University of Applied Sciences with a specialization in Software Engineering.
+          I will soon start my thrid year as an IT Engineering student at Vaasa University of Applied Sciences. 
+          My main point of focus so far has been in web development, but I also have interest in mobile app development, cybersecurity and networking.
         </p>
         <p>
-          
+          My other hobbies besides coding include e.g. playing guitar, and many forms of excercise and outdoor stuff.
         </p>
       </div>
     </div>

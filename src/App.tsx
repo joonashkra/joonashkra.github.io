@@ -3,7 +3,7 @@ import NavBar from './components/NavBar';
 import ProgBar from './components/ProgBar';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
-import ProjectPage from './pages/ProjectPage';
+import ProjectPage from './pages/SkillsPage';
 import WelcomePage from './pages/WelcomePage';
 
 function App() {

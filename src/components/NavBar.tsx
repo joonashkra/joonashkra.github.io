@@ -10,7 +10,7 @@ function NavBar() {
             <nav className="flex lg:gap-20 lg:mr-20 text-xl">
                 <Link smooth className="hover:underline hover:decoration-blue hover:decoration-2" to="#home">Home</Link>
                 <Link smooth className="hover:underline hover:decoration-blue hover:decoration-2" to="#about">About</Link>
-                <Link smooth className="hover:underline hover:decoration-blue hover:decoration-2" to="#projects">Projects</Link>
+                <Link smooth className="hover:underline hover:decoration-blue hover:decoration-2" to="#skills">Skills</Link>
                 <Link smooth className="hover:underline hover:decoration-blue hover:decoration-2" to="#contact">Contact</Link>
             </nav>
         </div>

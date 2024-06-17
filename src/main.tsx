@@ -8,7 +8,7 @@ import {
   } from "react-router-dom";
 import WelcomePage from './pages/WelcomePage.tsx';
 import AboutPage from './pages/AboutPage.tsx';
-import ProjectPage from './pages/ProjectPage.tsx';
+import SkillsPage from './pages/SkillsPage.tsx';
 import ContactPage from './pages/ContactPage.tsx';
 
   const router = createBrowserRouter([
@@ -25,8 +25,8 @@ import ContactPage from './pages/ContactPage.tsx';
             element: <AboutPage />,
         },
         {
-            path: "/projects",
-            element: <ProjectPage />,
+            path: "/skills",
+            element: <SkillsPage />,
         },
         {
             path: "/contact",
