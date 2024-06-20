@@ -2,7 +2,7 @@
 
 function WelcomePage() {
   return (
-    <div className='snap-start h-full flex flex-col m-8 sm:m-32 justify-center gap-20' id="home">
+    <div className='snap-start h-full flex flex-col p-8 sm:p-32 justify-center gap-20' id="home">
         <h1 className='text-2xl sm:text-3xl'>Welcome!</h1>
         <div className='flex flex-col text-lg sm:text-2xl gap-10'>
           <p>
