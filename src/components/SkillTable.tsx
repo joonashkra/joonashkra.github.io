@@ -43,7 +43,7 @@ function SkillTable() {
           </tr>
           <tr className='flex items-center gap-5'>
             <td>
-              <CSharpLogo size={50}/>
+              <CSharpLogo size={50} />
             </td>
             <td className='w-full'>
               <SkillBar title='C# / .NET' maxLevel={25} color='#0994DC'/>

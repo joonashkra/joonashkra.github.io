@@ -11,7 +11,7 @@ function App() {
     <div className="h-screen flex flex-col bg-dark text-white">
       <NavBar />
       <ProgBar />
-      <div className="scroll-container snap-both snap-mandatory snap-center snap-always overflow-y-scroll h-screen no-scrollbar">
+      <div className="scroll-container snap-both snap-mandatory snap-center snap-always overflow-y-scroll h-screen">
         <WelcomePage />
         <AboutPage />
         <ProjectPage />

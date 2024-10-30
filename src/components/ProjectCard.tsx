@@ -13,7 +13,7 @@ function ProjectCard({title, description, link}: SkillCardProps) {
       <p className="text-lg">
         - {description}
       </p>
-      <a target='_blank' href={link} className='text-blue'>Go to GitHub Repository</a>
+      <a target='_blank' href={link} className='text-blue hover:underline'>Go to GitHub Repository</a>
     </div>
   )
 }

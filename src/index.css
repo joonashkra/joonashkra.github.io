@@ -5,3 +5,15 @@
 #root {
     font-family: "DM Mono", monospace;
 }
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #158ba2;
+}
