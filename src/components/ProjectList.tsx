@@ -13,12 +13,12 @@ type ProjectListProps = {
 
 function ProjectList({ projects }: ProjectListProps) {
   return (
-    <ul className='flex flex-col gap-10 bg-black/25 p-4 justify-evenly'>
+    <ul className='flex flex-col gap-10 p-2 justify-evenly mt-2'>
         {projects.map((project, index) => (
-            <div key={index}>
-            <li className='flex flex-col gap-5'>
-                <ProjectCard title={project.title} description={project.description} link={project.link} />
-            </li>
+            <div key={index} className="flex flex-col gap-2">
+                <li className='flex flex-col gap-5'>
+                    <ProjectCard title={project.title} description={project.description} link={project.link} />
+                </li>
             </div> 
         ))}
     </ul>
