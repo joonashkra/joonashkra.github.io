@@ -1,5 +1,5 @@
 
-const GitHubLogo = ({size = 25, color = "#158ba2"}) => (
+const GitHubLogo = ({size = 25, color = "#1cc4a3"}) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height={size} width={size}>
     <title>{"github [#0f697b]"}</title>
     <path

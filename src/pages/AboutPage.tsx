@@ -1,21 +1,28 @@
-
+import useVisibility from "../hooks/useVisibility";
 
 function AboutPage() {
+  const { ref, isVisible } = useVisibility();
 
   return (
-    <div className='snap-start h-full flex flex-col p-8 sm:p-32 justify-center gap-12' id="about">
-      <h1 className='text-2xl sm:text-3xl'>About Me</h1>
-      <div className='flex flex-col text-lg sm:text-2xl gap-10'>
+    <div className='snap-start h-full flex flex-col p-6 sm:p-24 md:p-32 justify-center gap-6 md:gap-12' id="about">
+      <h1 ref={ref}
+              className={`text-2xl md:text-3xl relative w-[max-content] before:absolute before:inset-0 before:bg-dark ${
+                isVisible ? 'before:animate-eightStepWriter' : ''
+            }`}>
+          About Me
+      </h1>
+      <div ref={ref} className={`flex flex-col text-sm sm:text-lg lg:text-xl gap-6 md:gap-10`}>
         <p>
-          I am currently in my third year as an IT Engineering student at Vaasa University of Applied Sciences. 
-          My primary focus has been in web development, with additional interests in networking and related fields.
-        </p>
-        <p>
-          In addition to coding, my hobbies include playing guitar, reading, and engaging in various forms of exercise and outdoor activities.
+          I'm currently on my third year of IT engineering studies. 
+          My primary focus so far has been in web development, with additional interests in networking and related fields.
         </p>
         <p>
           My most recent work experience was at telecommunications company DNA Oyj, where I held the position of a salesman. 
-          I am actively seeking new job opportunities and internship positions in software engineering or other IT-related fields.
+          I'm actively seeking new job and internship opportunities in software engineering or other IT-related fields.
+        </p>
+        <p>
+          In my free time, I engage in activities such as playing the guitar, reading, painting, participating in various forms of exercise and
+           outdoor activities, and working on personal coding projects.
         </p>
       </div>
     </div>

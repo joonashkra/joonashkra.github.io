@@ -13,10 +13,10 @@ type ProjectListProps = {
 
 function ProjectList({ projects }: ProjectListProps) {
   return (
-    <ul className='flex flex-col gap-10 p-2 justify-evenly mt-2'>
+    <ul className='flex flex-col gap-6 md:gap-10 p-1 justify-evenly mt-2'>
         {projects.map((project, index) => (
-            <div key={index} className="flex flex-col gap-2">
-                <li className='flex flex-col gap-5'>
+            <div key={index} className="flex flex-col">
+                <li className='flex flex-col'>
                     <ProjectCard title={project.title} description={project.description} link={project.link} />
                 </li>
             </div> 

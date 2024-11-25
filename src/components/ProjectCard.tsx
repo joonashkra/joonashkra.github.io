@@ -9,11 +9,11 @@ function ProjectCard({title, description, link}: SkillCardProps) {
 
   return (
     <div className='flex flex-col gap-2'>
-      <h2 className="text-xl">{title}</h2>
-      <p className="text-lg">
-        - {description}
+      <h2 className="text-md underline underline-offset-2 decoration-blue">{title}</h2>
+      <p className="text-sm">
+        {description}
       </p>
-      <a target='_blank' href={link} className='text-blue hover:underline'>Go to GitHub Repository</a>
+      <a target='_blank' href={link} className='text-blue hover:underline text-sm'>Go to GitHub Repository</a>
     </div>
   )
 }

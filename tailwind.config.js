@@ -5,14 +5,39 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        sixStepWriter: "typewriter 0.8s steps(6) forwards",
+        eightStepWriter: "typewriter 0.8s steps(8) forwards",
+        goodbyeWriter: "typewriter 1.2s steps(23) forwards",
+        fade: "fadeIn 1.2s ease-in-out",
+        fadeSlow: "fadeIn 2s ease-in-out",
+        fadeOut: "fadeOut 1.2s ease-in-out",
+      },
+      keyframes: {
+        typewriter: {
+          to: {
+            left: "100%",
+          },
+        },
+        fadeIn: {
+          "0%": { opacity: 0 },
+          "50%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        },
+        fadeOut: {
+          "0%": { opacity: 1 },
+          "100%": { opacity: 0 },
+        },
+      },
+    },
     colors: {
-      'dark': '#111111',
-      'white': '#F0F0F0',
-      'blue': '#158ba2',
-      'gray': '#979797',
-      'black': '#000000'
-    }
+      dark: "#111111",
+      white: "#F0F0F0",
+      blue: "#1cc4a3",
+      gray: "#979797",
+      black: "#000000",
+    },
   },
   plugins: [
     function ({ addUtilities }) {
@@ -20,13 +45,13 @@ export default {
         ".no-scrollbar::-webkit-scrollbar": {
           display: "none",
         },
-        '.no-scrollbar': {
-          '-ms-overflow-style': 'none',
-          'scrollbar-width': 'none',
-        }
+        ".no-scrollbar": {
+          "-ms-overflow-style": "none",
+          "scrollbar-width": "none",
+        },
       };
 
-      addUtilities(newUtilities)
-    }
+      addUtilities(newUtilities);
+    },
   ],
-}
+};

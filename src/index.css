@@ -7,7 +7,7 @@
 }
 
 ::-webkit-scrollbar {
-    width: 3px;
+    width: 2px;
 }
 
 ::-webkit-scrollbar-track {
@@ -15,5 +15,15 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #158ba2;
+    background: #1cc4a3
+}
+
+::-moz-selection {
+    color: black;
+    background: #1cc4a3
+  }
+  
+::selection {
+color: black;
+background: #1cc4a3
 }

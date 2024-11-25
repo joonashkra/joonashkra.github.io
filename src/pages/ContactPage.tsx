@@ -1,9 +1,12 @@
+
+import { useEffect, useState } from "react";
 import Email from "../assets/Email";
 import GitHubLogo from "../assets/GitHubLogo";
 import LinkedInLogo from "../assets/LinkedInLogo";
+import useVisibility from "../hooks/useVisibility";
 
 function ContactPage() {
-
+  const { ref, isVisible } = useVisibility();
   const copyEmailToClipboard = () => {
     navigator.clipboard.writeText("joonasheikura1@gmail.com")
         .then(() => {
@@ -14,20 +17,40 @@ function ContactPage() {
         });
   };
 
+  const [size, setSize] = useState(50);
+
+  useEffect(() => {
+    const updateSize = () => {
+      setSize(window.innerWidth < 768 ? 40 : 50);
+    };
+    updateSize();
+    window.addEventListener('resize', updateSize);
+    return () => window.removeEventListener('resize', updateSize);
+  }, []);
+
   return (
-    <div className='snap-start h-full flex flex-col p-8 sm:p-32 justify-center gap-12' id="contact">
-        <h1 className='text-2xl sm:text-3xl'>Thank You for Visiting,</h1>
-        <div className='flex flex-col sm:text-2xl gap-20'>
-          <p>
-            I appreciate you taking the time to explore my portfolio. 
-            If you have any questions, feedback, or job inquiries, feel free to contact me from any of the channels below. 
-          </p>
-            <ul className="flex gap-16 text-white items-center">
-              <li className="cursor-pointer" onClick={copyEmailToClipboard}><Email size={50}/></li>
-              <li><a target='_blank' href="https://github.com/joonashkra"><GitHubLogo size={40}/></a></li>
-              <li><a target='_blank' href="https://www.linkedin.com/in/joonas-heikura-95a837307/"><LinkedInLogo size={45}/></a></li>
-            </ul>
-        </div>
+    <div className="snap-start h-full flex flex-col p-4 sm:p-32 md:gap-12 justify-center gap-12" id="contact">
+      <div>
+        <h1 ref={ref}
+                className={`text-2xl md:text-3xl relative w-[max-content] before:absolute before:inset-0 before:bg-dark ${
+                  isVisible ? 'before:animate-goodbyeWriter' : ''
+            }`}>
+              Thank You for Visiting,
+          </h1>
+      </div>
+      <div ref={ref} className={`flex flex-col text-md md:text-xl lg:text-2xl gap-10`}>
+        <p>
+          I appreciate you taking the time to explore my portfolio. 
+          If you have any questions, feedback, or job inquiries, feel free to contact me from any of the channels below. 
+        </p>
+      </div>
+      <div>
+        <ul className="flex gap-8 text-white items-center">
+          <li className="cursor-pointer" onClick={copyEmailToClipboard}><Email size={size}/></li>
+          <li className=""><a target='_blank' href="https://github.com/joonashkra"><GitHubLogo size={size-10}/></a></li>
+          <li className=""><a target='_blank' href="https://www.linkedin.com/in/joonas-heikura-95a837307/"><LinkedInLogo size={size-5}/></a></li>
+        </ul>
+      </div>
     </div>
   )
 }
