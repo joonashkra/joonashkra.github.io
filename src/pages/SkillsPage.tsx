@@ -8,7 +8,7 @@ function SkillsPage() {
 
 
   return (
-    <div className="snap-start h-full flex p-6 md:p-20 md:gap-12" id="skills">
+    <div className="md:snap-start md:justify-center h-full flex p-6 md:p-20 md:gap-12" id="skills">
       <Skills content={content} setContent={setContent} />
       <Projects content={content} setContent={setContent} />
     </div>

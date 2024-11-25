@@ -4,7 +4,7 @@ function AboutPage() {
   const { ref, isVisible } = useVisibility();
 
   return (
-    <div className='snap-start h-full flex flex-col p-6 sm:p-24 md:p-32 justify-center gap-6 md:gap-12' id="about">
+    <div className='md:snap-start h-full flex flex-col p-6 sm:p-24 md:p-32 justify-start md:justify-center gap-6 md:gap-12' id="about">
       <h1 ref={ref}
               className={`text-2xl md:text-3xl relative w-[max-content] before:absolute before:inset-0 before:bg-dark ${
                 isVisible ? 'before:animate-eightStepWriter' : ''

@@ -13,7 +13,7 @@ function Skills({ content, setContent }: SkillsProps) {
   const { ref, isVisible } = useVisibility();
 
   return (
-    <div className={`flex flex-col justify-center md:justify-start md:w-1/2 h-full gap-4 ${content !== 'skills' ? 'md:flex hidden' : 'md:flex'}`}>
+    <div className={`flex flex-col justify-start md:justify-center md:w-1/2 h-full gap-4 ${content !== 'skills' ? 'md:flex hidden' : 'md:flex'}`}>
       <div className="flex justify-between items-center">
         <h1
           ref={ref}

@@ -6,7 +6,7 @@ function WelcomePage() {
   const { ref, isVisible } = useVisibility()
 
   return (
-    <div className='snap-start h-full flex flex-col p-6 sm:p-20 md:p-32 gap-8 justify-center' id="home">
+    <div className='md:snap-start h-full flex flex-col p-6 sm:p-20 md:p-32 gap-8 justify-center' id="home">
           <h1 ref={ref}
               className={`text-2xl md:text-3xl relative w-[max-content] before:absolute before:inset-0 before:bg-dark ${
                 isVisible ? 'before:animate-sixStepWriter' : ''
