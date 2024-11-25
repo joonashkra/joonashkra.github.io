@@ -35,7 +35,7 @@ function Projects({ content, setContent }: ProjectsProps) {
       title: "Personal Portfolio Website",
       year: 2024,
       description: "This website :)",
-      link: "https://github.com/joonashkra/note-app/"
+      link: "https://github.com/joonashkra/joonashkra.github.io/"
     },
   ];
 
