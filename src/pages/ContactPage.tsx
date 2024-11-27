@@ -29,7 +29,7 @@ function ContactPage() {
   }, []);
 
   return (
-    <div className="md:snap-start justify-start md:justify-center h-full flex flex-col p-4 sm:p-32 md:gap-12 gap-12" id="contact">
+    <div className="md:snap-start justify-center md:justify-center h-full flex flex-col px-4 md:px-32 md:gap-12 gap-12" id="contact">
       <div>
         <h1 ref={ref}
                 className={`text-2xl md:text-3xl relative w-[max-content] before:absolute before:inset-0 before:bg-dark ${

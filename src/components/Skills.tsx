@@ -21,7 +21,7 @@ function Skills({ content, setContent }: SkillsProps) {
         >
           Skills
         </h1>
-        <button onClick={() => setContent('projects')} className='animate-fade md:hidden'>
+        <button onClick={() => setContent('projects')} className='md:hidden animate-pulse'>
           <Switch size={25} />
         </button>
       </div>

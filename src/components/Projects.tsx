@@ -40,7 +40,7 @@ function Projects({ content, setContent }: ProjectsProps) {
   ];
 
   return (
-    <div className={`flex flex-col justify-center md:justify-center md:w-1/2 h-full gap-4 ${content === 'skills' ? 'md:flex hidden' : ''}`}>
+    <div className={`flex flex-col justify-start md:justify-center md:w-1/2 h-full gap-4 ${content === 'skills' ? 'md:flex hidden' : ''}`}>
       <div className="flex justify-between items-center">
         <h1
           ref={ref}
@@ -48,7 +48,7 @@ function Projects({ content, setContent }: ProjectsProps) {
         >
           Projects
         </h1>
-        <button onClick={() => setContent('skills')} className='animate-fade md:hidden'>
+        <button onClick={() => setContent('skills')} className='animate-pulse md:hidden'>
           <Switch />
         </button>
       </div>

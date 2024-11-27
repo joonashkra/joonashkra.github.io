@@ -17,11 +17,11 @@ function AboutPage() {
           My primary focus so far has been in web development, with additional interests in networking and related fields.
         </p>
         <p>
-          My most recent work experience was at telecommunications company DNA Oyj, where I held the position of a salesman. 
+          My most recent work experience was at telecommunications company DNA Oyj, where I held the position of a sales representative. 
           I'm actively seeking new job and internship opportunities in software engineering or other IT-related fields.
         </p>
         <p>
-          In my free time, I engage in activities such as playing the guitar, reading, painting, participating in various forms of exercise and
+          In my free time, I engage in activities such as playing the guitar, reading, participating in various forms of exercise and
            outdoor activities, and working on personal coding projects.
         </p>
       </div>

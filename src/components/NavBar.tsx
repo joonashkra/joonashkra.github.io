@@ -14,8 +14,8 @@ function NavBar() {
                 <button className="md:hidden" onClick={() => setDropDown(!dropDown)}>{ dropDown ? <X/> : <Menu/> }</button>
             </div>
             <nav
-                className={`transition-all duration-300 overflow-hidden md:overflow-visible ${dropDown ? 'max-h-40 mt-5 mb-1' : 'max-h-0'} md:flex md:m-2`}>
-                <ul onClick={() => setDropDown(false)} className="justify-center items-center text-center flex flex-row md:gap-8 lg:gap-14 gap-4 text-md sm:text-lg lg:text-xl">
+                className={`transition-all duration-300 overflow-hidden md:overflow-visible ${dropDown ? 'block mt-5 mb-1' : 'hidden'} md:flex md:m-2`}>
+                <ul onClick={() => setDropDown(false)} className="justify-evenly items-center text-center flex flex-row md:gap-8 lg:gap-14 text-md sm:text-lg lg:text-xl">
                     <Link smooth className="hover:underline hover:decoration-blue hover:decoration-2" to="#home">Home</Link>
                     <Link smooth className="hover:underline hover:decoration-blue hover:decoration-2" to="#about">About</Link>
                     <Link smooth className="hover:underline hover:decoration-blue hover:decoration-2" to="#skills">Skills</Link>
