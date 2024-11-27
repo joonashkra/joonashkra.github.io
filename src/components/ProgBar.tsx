@@ -40,7 +40,7 @@ function ProgBar() {
     return (
         <div 
             ref={containerRef}
-            className="block h-2 bg-blue transition-all duration-500 ease-in-out" 
+            className="block h-1 bg-blue transition-all duration-500 ease-in-out" 
             style={{ width: `${scroll}%` }}
         ></div>
     );

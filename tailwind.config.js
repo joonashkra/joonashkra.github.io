@@ -34,7 +34,7 @@ export default {
     colors: {
       dark: "#111111",
       white: "#F0F0F0",
-      blue: "#1cc4a3",
+      blue: "#A7C7E7",
       gray: "#979797",
       black: "#000000",
     },

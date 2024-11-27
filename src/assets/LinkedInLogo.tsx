@@ -1,5 +1,5 @@
 
-const LinkedInLogo = ({size = 25, color = "#1cc4a3"}) => (
+const LinkedInLogo = ({size = 25, color = "#A7C7E7"}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"

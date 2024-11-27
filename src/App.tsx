@@ -11,7 +11,7 @@ function App() {
     <div className="h-screen flex flex-col bg-dark text-white">
       <NavBar />
       <ProgBar />
-      <div className=" overflow-x-hidden">
+      <div className="scroll-container overflow-x-hidden">
         <WelcomePage />
         <AboutPage />
         <ProjectPage />
