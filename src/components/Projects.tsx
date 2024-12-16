@@ -14,6 +14,12 @@ function Projects({ content, setContent }: ProjectsProps) {
 
   const projects = [
     {
+      title: "Hotel App",
+      year: 2024,
+      description: "React + ASP.NET web application",
+      link: "https://github.com/joonashkra/hotel-app"
+    },
+    {
       title: "To-Do App",
       year: 2024,
       description: "MERN-stack web application",
@@ -30,12 +36,6 @@ function Projects({ content, setContent }: ProjectsProps) {
       year: 2024,
       description: "C# Console-App",
       link: "https://github.com/joonashkra/checkers/"
-    },
-    {
-      title: "Personal Portfolio Website",
-      year: 2024,
-      description: "This website :)",
-      link: "https://github.com/joonashkra/joonashkra.github.io/"
     },
   ];
 

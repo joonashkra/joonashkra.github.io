@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="h-screen flex flex-col bg-dark text-white">
       <NavBar />
+      <div className='md:h-1.5 h-1 bg-gray mb-1.5'></div>
       <ProgBar />
       <div className="scroll-container overflow-x-hidden">
         <WelcomePage />

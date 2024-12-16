@@ -1,4 +1,4 @@
-const Switch = ({size = 25, color = "#A7C7E7"}) => (
+const Switch = ({size = 25, color = "#4D4B9A"}) => (
     <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"

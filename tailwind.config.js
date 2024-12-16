@@ -9,7 +9,7 @@ export default {
       animation: {
         sixStepWriter: "typewriter 0.8s steps(6) forwards",
         eightStepWriter: "typewriter 0.8s steps(8) forwards",
-        goodbyeWriter: "typewriter 1.2s steps(23) forwards",
+        goodbyeWriter: "typewriter 1.4s steps(22) forwards",
         fade: "fadeIn 1.2s ease-in-out",
         fadeSlow: "fadeIn 2s ease-in-out",
         fadeOut: "fadeOut 1.2s ease-in-out",
@@ -34,9 +34,10 @@ export default {
     colors: {
       dark: "#111111",
       white: "#F0F0F0",
-      blue: "#A7C7E7",
+      blue: "#4D4B9A",
       gray: "#979797",
       black: "#000000",
+      orange: "#de8b45"
     },
   },
   plugins: [

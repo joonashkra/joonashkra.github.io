@@ -35,7 +35,7 @@ function ContactPage() {
                 className={`text-2xl md:text-3xl relative w-[max-content] before:absolute before:inset-0 before:bg-dark ${
                   isVisible ? 'before:animate-goodbyeWriter' : ''
             }`}>
-              Thank You for Visiting,
+              Thank You for Visiting
           </h1>
       </div>
       <div ref={ref} className={`flex flex-col text-md md:text-xl lg:text-2xl gap-10`}>

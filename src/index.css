@@ -15,15 +15,15 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #A7C7E7;
+    background: #979797;
 }
 
 ::-moz-selection {
     color: black;
-    background: #A7C7E7;
+    background: #4D4B9A;
   }
   
 ::selection {
 color: black;
-background: #A7C7E7;
+background: #4D4B9A;
 }

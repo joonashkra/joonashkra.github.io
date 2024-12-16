@@ -13,7 +13,7 @@ function WelcomePage() {
             }`}>
             Hello,
           </h1>
-        <div ref={ref} className={`flex flex-col text-md sm:text-xl gap-24 animate-fade ${
+        <div ref={ref} className={`flex flex-col text-md sm:text-xl gap-16 animate-fade ${
                 isVisible ? 'animate-fade' : 'opacity-0'
             }`}>
           <div className="flex flex-col gap-6">
@@ -23,8 +23,11 @@ function WelcomePage() {
                   and skills, as well as my contact information for potential job opportunities, inquiries, or feedback. 
               </p>
           </div>
-          <div className="flex h-full justify-center animate-bounce">
-            <ArrowDown size={25} />
+          <div className="flex flex-col h-full items-center gap-4">
+            <p>Scroll for more!</p>
+            <div className="animate-bounce">
+              <ArrowDown size={25} />
+            </div>
           </div>
         </div>
     </div>
