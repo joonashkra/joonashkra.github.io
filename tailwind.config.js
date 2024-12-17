@@ -37,7 +37,7 @@ export default {
       blue: "#4D4B9A",
       gray: "#979797",
       black: "#000000",
-      orange: "#de8b45"
+      green: "#4b9a75"
     },
   },
   plugins: [

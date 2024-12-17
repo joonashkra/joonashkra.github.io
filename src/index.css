@@ -7,23 +7,15 @@
 }
 
 ::-webkit-scrollbar {
-    width: 2px;
-}
-
-::-webkit-scrollbar-track {
-    background: none;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #979797;
+    display: none;
 }
 
 ::-moz-selection {
     color: black;
-    background: #4D4B9A;
+    background: #4b9a75;
   }
   
 ::selection {
 color: black;
-background: #4D4B9A;
+background: #4b9a75;
 }

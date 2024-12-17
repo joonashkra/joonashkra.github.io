@@ -32,13 +32,13 @@ function ContactPage() {
     <div className="md:snap-start justify-center md:justify-center h-full flex flex-col px-4 md:px-32 md:gap-12 gap-12" id="contact">
       <div>
         <h1 ref={ref}
-                className={`text-2xl md:text-3xl relative w-[max-content] before:absolute before:inset-0 before:bg-dark ${
+                className={`text-xl lg:text-3xl relative w-[max-content] before:absolute before:inset-0 before:bg-dark ${
                   isVisible ? 'before:animate-goodbyeWriter' : ''
             }`}>
               Thank You for Visiting
           </h1>
       </div>
-      <div ref={ref} className={`flex flex-col text-md md:text-xl lg:text-2xl gap-10`}>
+      <div ref={ref} className={`flex flex-col text-md md:text-xl lg:text-xl 2xl:text-2xl gap-10`}>
         <p>
           I appreciate you taking the time to explore my portfolio. 
           If you have any questions, feedback, or job inquiries, feel free to contact me from any of the channels below. 

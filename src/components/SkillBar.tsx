@@ -24,7 +24,7 @@ function SkillBar({ title, maxLevel, color }: SkillBarProps) {
 
     return (
         <div ref={ref} className="flex flex-col w-full justify-center gap-2">
-            <p className="text-md md:text-md lg:text-lg">{title}</p>
+            <p className="text-md xl:text-lg">{title}</p>
             <div className="flex flex-col bg-black/40 w-full rounded-md h-1">
                 <div
                     className={`h-1 rounded-md transition-all duration-1000 ease-in-out ${isTransitioning ? "opacity-100" : "opacity-0"}`}

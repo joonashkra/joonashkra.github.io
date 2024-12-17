@@ -2,6 +2,7 @@
 import useVisibility from "../hooks/useVisibility";
 import Switch from '../assets/Switch';
 import ProjectList from './ProjectList';
+import { title } from "process";
 
 type ProjectsProps = {
   content: string;
@@ -22,7 +23,7 @@ function Projects({ content, setContent }: ProjectsProps) {
     {
       title: "To-Do App",
       year: 2024,
-      description: "MERN-stack web application",
+      description: "React + Express web application",
       link: "https://github.com/joonashkra/note-app/"
     },
     {
@@ -44,7 +45,7 @@ function Projects({ content, setContent }: ProjectsProps) {
       <div className="flex justify-between items-center">
         <h1
           ref={ref}
-          className={`text-2xl md:text-3xl relative w-[max-content] before:absolute before:inset-0 before:bg-dark ${isVisible ? 'before:animate-eightStepWriter' : ''}`}
+          className={`text-2xl lg:text-3xl relative w-[max-content] before:absolute before:inset-0 before:bg-dark ${isVisible ? 'before:animate-eightStepWriter' : ''}`}
         >
           Projects
         </h1>
@@ -53,11 +54,11 @@ function Projects({ content, setContent }: ProjectsProps) {
         </button>
       </div>
       <div
-        className={`flex flex-col gap-2 animate-fadeIn text-sm lg:text-lg md:text-md`}
+        className={`flex flex-col gap-2 animate-fadeIn text-sm lg:text-md xl:text-lg`}
       >
         <p>
-          Below is a list of projects I have undertaken over the years, some of which may still be in
-          progress, presented in no particular order.
+          Below is a list of some of the projects I have undertaken over time, presented in no particular order. 
+          Some of them may still be in progress at the time of writing. 
         </p>
         <ProjectList projects={projects} />
       </div>

@@ -21,13 +21,13 @@ function SkillTable() {
 
   return (
     <table className='flex flex-col gap-10 p-2 mt-2 rounded-md w-full'>
-      <tbody className='flex flex-col gap-8'>
+      <tbody className='flex flex-col gap-12'>
           <tr className='flex items-center gap-5'>
             <td>
               <JSLogo size={size}/>
             </td>
             <td className='w-full'>
-              <SkillBar title='JavaScript / TypeScript' maxLevel={60} color='#f0db4f'/>
+              <SkillBar title='JavaScript / TypeScript' maxLevel={60} color='#f0db4e'/>
             </td>
           </tr>
           <tr className='flex items-center gap-5'>
@@ -35,7 +35,7 @@ function SkillTable() {
               <ReactLogo size={size}/>
             </td>
             <td className='w-full'>
-              <SkillBar title='React' maxLevel={65} color='#00D8FF'/>
+              <SkillBar title='React' maxLevel={70} color='#62dafc'/>
             </td>
           </tr>
           <tr className='flex items-center gap-5'>
@@ -43,15 +43,7 @@ function SkillTable() {
               <NodeJSLogo size={size}/>
             </td>
             <td className='w-full'>
-              <SkillBar title='NodeJS / Express' maxLevel={40} color='#66a060'/>
-            </td>
-          </tr>
-          <tr className='flex items-center gap-5'>
-            <td>
-              <CSSLogo size={size}/>
-            </td>
-            <td className='w-full'>
-             <SkillBar title='CSS' maxLevel={50} color='#06b6d4'/>
+              <SkillBar title='NodeJS / Express' maxLevel={50} color='#549d44'/>
             </td>
           </tr>
           <tr className='flex items-center gap-5'>
@@ -59,7 +51,15 @@ function SkillTable() {
               <CSharpLogo size={size} />
             </td>
             <td className='w-full'>
-              <SkillBar title='C# / .NET' maxLevel={25} color='#0994DC'/>
+              <SkillBar title='C# / .NET' maxLevel={35} color='#a179dc'/>
+            </td>
+          </tr>
+          <tr className='flex items-center gap-5'>
+            <td>
+              <CSSLogo size={size}/>
+            </td>
+            <td className='w-full'>
+             <SkillBar title='CSS' maxLevel={55} color='#1c88c7'/>
             </td>
           </tr>
         </tbody>
