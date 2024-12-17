@@ -13,7 +13,7 @@ function NavBar() {
                 <h1 className="text-lg md:text-xl lg:text-2xl text-center">joonashkra.github.io</h1>
                 <button className="md:hidden" onClick={() => setDropDown(!dropDown)}>{ dropDown ? <X size={24}/> : <Menu size={24}/> }</button>
             </div>
-            <nav className={`transition-all duration-300 overflow-hidden md:overflow-visible ${dropDown ? 'max-h-40 mt-6 mb-2' : 'max-h-0'} md:flex md:m-2`}>
+            <nav className={`transition-all duration-300 overflow-hidden md:overflow-visible ${dropDown ? 'mt-6 mb-2' : 'hidden'} md:flex md:m-2`}>
                 <ul className="justify-around items-center text-center flex flex-row md:gap-8 lg:gap-14 text-md sm:text-lg lg:text-xl">
                     <Link smooth className="hover:underline hover:decoration-blue hover:decoration-2 underline-offset-2" to="#home">Home</Link>
                     <Link smooth className="hover:underline hover:decoration-blue hover:decoration-2 underline-offset-2" to="#about">About</Link>
