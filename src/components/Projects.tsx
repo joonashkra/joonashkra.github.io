@@ -2,7 +2,6 @@
 import useVisibility from "../hooks/useVisibility";
 import Switch from '../assets/Switch';
 import ProjectList from './ProjectList';
-import { title } from "process";
 
 type ProjectsProps = {
   content: string;
