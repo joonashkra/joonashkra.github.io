@@ -21,7 +21,7 @@ function SkillTable() {
 
   return (
     <table className='flex flex-col gap-10 p-2 mt-2 rounded-md w-full'>
-      <tbody className='flex flex-col gap-12'>
+      <tbody className='flex flex-col gap-11'>
           <tr className='flex items-center gap-5'>
             <td>
               <JSLogo size={size}/>

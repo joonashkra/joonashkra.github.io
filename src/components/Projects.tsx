@@ -49,7 +49,7 @@ function Projects({ content, setContent }: ProjectsProps) {
           Projects
         </h1>
         <button onClick={() => setContent('skills')} className='animate-pulse md:hidden'>
-          <Switch />
+          <Switch size={24} />
         </button>
       </div>
       <div

@@ -29,10 +29,10 @@ function ContactPage() {
   }, []);
 
   return (
-    <div className="md:snap-start justify-center md:justify-center h-full flex flex-col px-4 md:px-32 md:gap-12 gap-12" id="contact">
+    <div className="md:snap-start justify-center md:justify-center h-full flex flex-col p-6 md:p-20 lg:p-32 md:gap-12 gap-12" id="contact">
       <div>
         <h1 ref={ref}
-                className={`text-xl lg:text-3xl relative w-[max-content] before:absolute before:inset-0 before:bg-dark ${
+                className={`text-xl md:text-2xl lg:text-2xl xl:text-3xl relative w-[max-content] before:absolute before:inset-0 before:bg-dark ${
                   isVisible ? 'before:animate-goodbyeWriter' : ''
             }`}>
               Thank You for Visiting
@@ -46,9 +46,9 @@ function ContactPage() {
       </div>
       <div>
         <ul className="flex gap-8 text-white items-center">
-          <li className="cursor-pointer" onClick={copyEmailToClipboard}><Email size={size}/></li>
-          <li className=""><a target='_blank' href="https://github.com/joonashkra"><GitHubLogo size={size-10}/></a></li>
-          <li className=""><a target='_blank' href="https://www.linkedin.com/in/joonas-heikura-95a837307/"><LinkedInLogo size={size-5}/></a></li>
+          <li className="cursor-pointer" onClick={copyEmailToClipboard}><Email size={size-8}/></li>
+          <li className=""><a target='_blank' href="https://github.com/joonashkra"><GitHubLogo size={size-8}/></a></li>
+          <li className=""><a target='_blank' href="https://www.linkedin.com/in/joonas-heikura-95a837307/"><LinkedInLogo size={size-4}/></a></li>
         </ul>
       </div>
     </div>
