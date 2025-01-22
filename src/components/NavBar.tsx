@@ -7,7 +7,7 @@ function NavBar() {
     const [dropDown, setDropDown] = useState(false);
 
     return (
-        <div className="navBar bg-white dark:bg-black/75 shadow-md p-4 md:p-6 flex flex-col md:flex-row md:justify-around md:items-center w-full sticky top-0">
+        <div className="navBar bg-white dark:bg-black shadow-md p-4 md:p-6 flex flex-col md:flex-row md:justify-around md:items-center w-full sticky top-0 z-50">
             <div className="navBarTitle flex justify-between items-center w-full md:w-auto">
                 <h1 className="text-lg md:text-xl lg:text-2xl">joonashkra.github.io</h1>
                 <button
