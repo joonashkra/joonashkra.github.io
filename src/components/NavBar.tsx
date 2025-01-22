@@ -7,7 +7,7 @@ function NavBar() {
     const [dropDown, setDropDown] = useState(false);
 
     return (
-        <div className="navBar bg-black/25 shadow-md p-4 md:p-6 flex flex-col md:flex-row md:justify-around md:items-center w-full">
+        <div className="navBar bg-white dark:bg-black/75 shadow-md p-4 md:p-6 flex flex-col md:flex-row md:justify-around md:items-center w-full sticky top-0">
             <div className="navBarTitle flex justify-between items-center w-full md:w-auto">
                 <h1 className="text-lg md:text-xl lg:text-2xl">joonashkra.github.io</h1>
                 <button
@@ -26,7 +26,7 @@ function NavBar() {
                     <li>
                         <Link
                             smooth
-                            className="relative hover:underline hover:decoration-blue hover:decoration-2 underline-offset-2"
+                            className="relative hover:underline hover:decoration-blue dark:hover:decoration-lightblue hover:decoration-2 underline-offset-2"
                             to="#home"
                         >
                             Home
@@ -35,7 +35,7 @@ function NavBar() {
                     <li>
                         <Link
                             smooth
-                            className="relative hover:underline hover:decoration-blue hover:decoration-2 underline-offset-2"
+                            className="relative hover:underline hover:decoration-blue dark:hover:decoration-lightblue hover:decoration-2 underline-offset-2"
                             to="#about"
                         >
                             About
@@ -44,7 +44,7 @@ function NavBar() {
                     <li>
                         <Link
                             smooth
-                            className="relative hover:underline hover:decoration-blue hover:decoration-2 underline-offset-2"
+                            className="relative hover:underline hover:decoration-blue dark:hover:decoration-lightblue hover:decoration-2 underline-offset-2"
                             to="#skills"
                         >
                             Skills
@@ -53,7 +53,7 @@ function NavBar() {
                     <li>
                         <Link
                             smooth
-                            className="relative hover:underline hover:decoration-blue hover:decoration-2 underline-offset-2"
+                            className="relative hover:underline hover:decoration-blue dark:hover:decoration-lightblue hover:decoration-2 underline-offset-2"
                             to="#contact"
                         >
                             Contact

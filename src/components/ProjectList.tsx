@@ -13,7 +13,7 @@ type ProjectListProps = {
 
 function ProjectList({ projects }: ProjectListProps) {
   return (
-    <ul className='flex flex-col gap-6 md:gap-8 p-1 justify-evenly mt-2'>
+    <ul className='flex flex-col gap-8 md:gap-10 p-1 justify-evenly mt-2'>
         {projects.map((project, index) => (
             <div key={index} className="flex flex-col">
                 <li className='flex flex-col'>

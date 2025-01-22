@@ -1,13 +1,13 @@
-const Switch = ({size = 25, color = "#8090c9"}) => (
+const Switch = ({size = 25}) => (
     <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
     width={size}
     height={size}
+    className="dark:stroke-lightblue stroke-blue"
   >
     <path
-      stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}

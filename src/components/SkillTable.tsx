@@ -1,10 +1,10 @@
 import ReactLogo from '../assets/ReactLogo'
 import CSSLogo from '../assets/CSSLogo'
-import { JSLogo } from '../assets/JSLogo'
 import { NodeJSLogo } from '../assets/NodeJsLogo'
 import SkillBar from '../components/SkillBar'
 import CSharpLogo from '../assets/CSharpLogo'
 import { useEffect, useState } from 'react'
+import TSLogo from '../assets/TSLogo'
 
 function SkillTable() {
 
@@ -24,10 +24,10 @@ function SkillTable() {
       <tbody className='flex flex-col gap-11'>
           <tr className='flex items-center gap-5'>
             <td>
-              <JSLogo size={size}/>
+              <TSLogo size={size} />
             </td>
             <td className='w-full'>
-              <SkillBar title='JavaScript / TypeScript' maxLevel={60} color='#f0db4e'/>
+              <SkillBar title='TypeScript / JavaScript' maxLevel={60} color='#007acc'/>
             </td>
           </tr>
           <tr className='flex items-center gap-5'>

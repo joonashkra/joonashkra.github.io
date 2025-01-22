@@ -32,12 +32,13 @@ export default {
       },
     },
     colors: {
-      dark: "#202020",
+      dark: "#101010",
       white: "#F0F0F0",
-      blue: "#8090c9",
+      blue: "#007acc",
+      lightgray: "#E2EAF4",
       gray: "#979797",
       black: "#000000",
-      lightblue: "#8090c9"
+      lightblue: "#62dafc"
     },
   },
   plugins: [

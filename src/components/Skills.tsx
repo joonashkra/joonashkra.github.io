@@ -17,7 +17,7 @@ function Skills({ content, setContent }: SkillsProps) {
       <div className="flex justify-between items-center">
         <h1
           ref={ref}
-          className={`text-2xl lg:text-3xl relative w-[max-content] before:absolute before:inset-0 before:bg-dark ${isVisible ? 'before:animate-sixStepWriter' : ''}`}
+          className={`text-2xl lg:text-3xl relative w-[max-content] before:absolute before:inset-0 before:bg-white dark:before:bg-dark ${isVisible ? 'before:animate-sixStepWriter' : ''}`}
         >
           Skills
         </h1>
@@ -26,13 +26,15 @@ function Skills({ content, setContent }: SkillsProps) {
         </button>
       </div>
       <div
-        className={`flex flex-col gap-6 animate-fadeIn text-sm md:text-md lg:text-md xl:text-lg md:text-md`}
+        className={`flex flex-col gap-4 animate-fadeIn text-sm md:text-md lg:text-md xl:text-lg md:text-md`}
       >
         <p>
-          Below is an overview of the skills I have developed over time through personal projects,
-          university education, and online courses. 
+          Below are listed some of the languages and frameworks I have worked with.
         </p>
         <SkillTable />
+        <p className="px-2 pt-2">
+          I'm also familiar with tools and practices such as Git, Docker, Linux OS, DevOps, and CI/CD.
+        </p>
       </div>
     </div>
   )

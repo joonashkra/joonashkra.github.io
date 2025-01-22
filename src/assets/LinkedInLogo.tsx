@@ -1,11 +1,11 @@
 
-const LinkedInLogo = ({size = 25, color = "#8090c9"}) => (
+const LinkedInLogo = ({size = 25}) => (
     <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"
     height={size}
     width={size}
-    fill={color}
+    className="dark:fill-lightblue fill-blue"
   >
     <g>
       <path d="M6.5 8a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM5 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-8ZM11 19h1a1 1 0 0 0 1-1v-4.5c0-1.5 3-2.5 3-.5v5a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-6c0-2-1.5-3-3.5-3S13 10.5 13 10.5V10a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1Z" />

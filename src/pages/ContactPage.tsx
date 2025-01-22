@@ -32,7 +32,7 @@ function ContactPage() {
     <div className="md:snap-start justify-center md:justify-center h-full flex flex-col p-6 md:p-20 lg:p-32 md:gap-12 gap-12" id="contact">
       <div>
         <h1 ref={ref}
-                className={`text-xl md:text-2xl lg:text-2xl xl:text-3xl relative w-[max-content] before:absolute before:inset-0 before:bg-dark ${
+                className={`text-xl md:text-2xl lg:text-2xl xl:text-3xl relative w-[max-content] before:absolute before:inset-0 before:bg-white dark:before:bg-dark ${
                   isVisible ? 'before:animate-goodbyeWriter' : ''
             }`}>
               Thank You for Visiting

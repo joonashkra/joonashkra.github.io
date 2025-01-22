@@ -14,16 +14,16 @@ function Projects({ content, setContent }: ProjectsProps) {
 
   const projects = [
     {
-      title: "Hotel App",
-      year: 2024,
-      description: "React + ASP.NET web application",
-      link: "https://github.com/joonashkra/hotel-app"
-    },
-    {
       title: "To-Do App",
       year: 2024,
       description: "React + Express web application",
       link: "https://github.com/joonashkra/note-app/"
+    },
+    {
+      title: "Hotel App",
+      year: 2024,
+      description: "React + ASP.NET web application",
+      link: "https://github.com/joonashkra/hotel-app"
     },
     {
       title: "FullStack Open",
@@ -44,7 +44,7 @@ function Projects({ content, setContent }: ProjectsProps) {
       <div className="flex justify-between items-center">
         <h1
           ref={ref}
-          className={`text-2xl lg:text-3xl relative w-[max-content] before:absolute before:inset-0 before:bg-dark ${isVisible ? 'before:animate-eightStepWriter' : ''}`}
+          className={`text-2xl lg:text-3xl relative w-[max-content] before:absolute before:inset-0 before:bg-white dark:before:bg-dark ${isVisible ? 'before:animate-eightStepWriter' : ''}`}
         >
           Projects
         </h1>
@@ -56,8 +56,7 @@ function Projects({ content, setContent }: ProjectsProps) {
         className={`flex flex-col gap-2 animate-fadeIn text-sm lg:text-md xl:text-lg`}
       >
         <p>
-          Below is a list of some of the projects I have undertaken over time, presented in no particular order. 
-          Some of them may still be in progress at the time of writing. 
+          Below are listed some of the projects I have undertaken over time.
         </p>
         <ProjectList projects={projects} />
       </div>

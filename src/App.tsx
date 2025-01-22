@@ -8,9 +8,8 @@ import WelcomePage from './pages/WelcomePage';
 
 function App() {
   return (
-    <div className="h-screen flex flex-col bg-dark text-white">
+    <div className="h-screen flex flex-col bg-white text-black dark:bg-dark dark:text-white">
       <NavBar />
-      <div className='h-1 md:h-1.5 bg-gray mb-1.5'></div>
       <ProgBar />
       <div className="scroll-container overflow-x-hidden">
         <WelcomePage />
