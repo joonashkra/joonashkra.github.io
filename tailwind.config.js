@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       animation: {
@@ -33,12 +30,13 @@ export default {
     },
     colors: {
       dark: "#101010",
-      white: "#F0F0F0",
+      white: "#f5f5f5",
       blue: "#007acc",
       lightgray: "#E2EAF4",
       gray: "#979797",
+      offwhite: "#ececec",
       black: "#000000",
-      lightblue: "#62dafc"
+      lightblue: "#62dafc",
     },
   },
   plugins: [

@@ -1,5 +1,5 @@
-const Switch = ({size = 25}) => (
-    <svg
+const Switch = ({ size = 25 }) => (
+  <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
@@ -14,6 +14,5 @@ const Switch = ({size = 25}) => (
       d="m18 10 3-3m0 0-3-3m3 3H7m-1 7-3 3m0 0 3 3m-3-3h14"
     />
   </svg>
-  )
-  export default Switch
-  
+);
+export default Switch;

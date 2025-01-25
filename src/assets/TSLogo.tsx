@@ -1,6 +1,10 @@
-
-const TSLogo = ({size=24}) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width={size} height={size}>
+const TSLogo = ({ size = 24 }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 400 400"
+    width={size}
+    height={size}
+  >
     <path
       d="M0 200V0h400v400H0"
       style={{
@@ -14,5 +18,5 @@ const TSLogo = ({size=24}) => (
       }}
     />
   </svg>
-)
-export default TSLogo
+);
+export default TSLogo;

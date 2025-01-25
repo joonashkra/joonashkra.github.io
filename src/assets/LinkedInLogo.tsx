@@ -1,6 +1,5 @@
-
-const LinkedInLogo = ({size = 25}) => (
-    <svg
+const LinkedInLogo = ({ size = 25 }) => (
+  <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"
     height={size}
@@ -16,5 +15,5 @@ const LinkedInLogo = ({size = 25}) => (
       />
     </g>
   </svg>
-)
-export default LinkedInLogo
+);
+export default LinkedInLogo;
