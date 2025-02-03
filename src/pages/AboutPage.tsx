@@ -49,8 +49,7 @@ function AboutPage() {
           <span className="dark:text-lightblue text-blue">guitar</span>,
           participating in various forms of{" "}
           <span className="dark:text-lightblue text-blue">exercise</span> and
-          outdoor activities,{" "}
-          <span className="dark:text-lightblue text-blue">reading</span>, and
+          outdoor activities,{" "} and
           working on personal{" "}
           <span className="dark:text-lightblue text-blue">coding</span>{" "}
           projects.

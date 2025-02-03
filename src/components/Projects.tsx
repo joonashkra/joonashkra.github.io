@@ -14,7 +14,7 @@ function Projects({ content, setContent }: ProjectsProps) {
     {
       title: "To-Do App",
       year: 2024,
-      description: "React + Express web application",
+      description: "React + Node.js web application",
       link: "https://github.com/joonashkra/note-app/",
     },
     {
@@ -24,7 +24,7 @@ function Projects({ content, setContent }: ProjectsProps) {
       link: "https://github.com/joonashkra/hotel-app",
     },
     {
-      title: "FullStack Open",
+      title: "Full-Stack Open",
       year: 2024,
       description: "MOOC by University of Helsinki",
       link: "https://github.com/joonashkra/fullstackopen/",

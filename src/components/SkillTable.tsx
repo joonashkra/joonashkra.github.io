@@ -38,7 +38,7 @@ function SkillTable() {
             <ReactLogo size={size} />
           </td>
           <td className="w-full">
-            <SkillBar title="React" maxLevel={70} color="#62dafc" />
+            <SkillBar title="React" maxLevel={65} color="#62dafc" />
           </td>
         </tr>
         <tr className="flex items-center gap-5">
@@ -46,7 +46,7 @@ function SkillTable() {
             <NodeJSLogo size={size} />
           </td>
           <td className="w-full">
-            <SkillBar title="NodeJS / Express" maxLevel={50} color="#549d44" />
+            <SkillBar title="NodeJS / Express" maxLevel={55} color="#549d44" />
           </td>
         </tr>
         <tr className="flex items-center gap-5">
@@ -62,7 +62,7 @@ function SkillTable() {
             <CSSLogo size={size} />
           </td>
           <td className="w-full">
-            <SkillBar title="CSS" maxLevel={55} color="#1c88c7" />
+            <SkillBar title="CSS" maxLevel={45} color="#1c88c7" />
           </td>
         </tr>
       </tbody>
